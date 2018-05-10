@@ -1,0 +1,27 @@
+/* Roboto-Regular */
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+/* Roboto-Bold */
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('../fonts/Roboto-Bold.ttf') format('truetype');
+}
+/* Roboto-Light */
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url('../fonts/Roboto-Light.ttf') format('truetype');
+}
+
+/* IstokWeb-Regular */
+@font-face {
+    font-family: 'IstokWeb-Regular';
+    src: url('../fonts/IstokWeb-Regular.ttf') format('truetype');
+}
+/* Lora-Regular */
+@font-face {
+    font-family: 'Lora-Regular';
+    src: url('../fonts/Lora-Regular.ttf') format('truetype');
+}

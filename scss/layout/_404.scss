@@ -1,0 +1,53 @@
+/*
+================================================================================
+|                                    404                                 |
+================================================================================
+*/
+.error{
+  color: $text-color;
+  position: relative;
+  img{
+    object-fit: cover;
+  }
+}
+.error-content{
+  position: absolute;
+  top: 90px;
+  height: 80%;
+}
+.error-number{
+  font-weight: 700;
+  font-size: 51.4rem;
+}
+.error-text{
+  font-family: "Roboto Condensed";
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 53.46px;
+}
+.btn-error{
+  background-color: $bg-color2;
+  border-radius: 0;
+  color: $text-color5;
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-top: 35px;
+  &:hover{
+    color: $text-color;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 479px) {
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+}

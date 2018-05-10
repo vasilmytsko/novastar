@@ -1,0 +1,7 @@
+@import '../utils/mixins';
+
+@include font-face("ArialMT", "../fonts/ArialMT");
+@include font-face("ArialMT", "../fonts/ArialMTBold", bold);
+@include font-face("RobotoCondensed", "../fonts/RobotoCondensed");
+@include font-face("RobotoCondensed", "../fonts/RobotoCondensedBold", bold);
+@include font-face("RobotoCondensed", "../fonts/RobotoCondensedLight", light);

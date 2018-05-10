@@ -1,0 +1,92 @@
+/*
+================================================================================
+|                                     ABOUT US                                   |
+================================================================================
+*/
+.body-padding{
+  padding-top: 81px;
+}
+.nav-change .navbar-nav .menu_link{
+  color: $text-color2;
+}
+.banner-img .container-fluid {
+  padding: 0;
+}
+.nav-change{
+  position: fixed;
+  height: 81px;
+  background: $bg-color2;
+}
+.banner-img{
+  height: 50vh;
+}
+.banner-img .banner-item {
+  position: relative;
+}
+.banner-img .content-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  background: $bg-color;
+}
+.banner-img .content-icon img {
+  object-fit: cover;
+  width: 100%;
+  opacity: .5;
+}
+.banner-info .title{
+  font-weight: 700;
+}
+.about-us-box {
+  width: 100%;
+  margin: 75px 0;
+  h3{
+    color: $text-color5;
+    font-family: "Roboto Condensed";
+    font-size: 2.4rem;
+    text-transform: uppercase;
+  }
+  p{
+    width: 440px;
+    height: 140px;
+    color: $text-color2;
+    font-family: "Roboto Condensed";
+    font-size: 1.4rem;
+    line-height: 16px;
+    overflow: hidden;
+  }
+  img {
+    max-width: 470px;
+  }
+}
+.about-us-box:nth-child(even){
+    flex-direction: row-reverse;
+    .about-us-img{
+      justify-content: flex-end;
+    }
+  }
+
+.button_order{
+  position: relative;
+  font-size: 1.8rem;
+  margin-left: -50px;
+  top: 50px;
+}
+@media screen and (min-width: 320px) and (max-width: 479px) {
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+}

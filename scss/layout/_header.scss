@@ -1,0 +1,127 @@
+/*
+================================================================================
+|                                     HEADER                                   |
+================================================================================
+*/
+
+.navbar {
+  position: absolute;
+  color: $text-color;
+  font-size: 2rem;
+}
+
+.navbar-light .navbar-nav .menu_link {
+  color: $text-color;
+  font-size: 2rem;
+  padding: 20px;
+}
+
+.main_title {
+  position: absolute;
+  top: 40%;
+  z-index: 2;
+}
+
+.btn_order {
+  position: absolute;
+  top: 65%;
+  z-index: 2;
+  font-size: 1.8rem;
+}
+
+.banner {
+  position: relative;
+  overflow: hidden;
+
+}
+
+.banner .sl {
+  height: 100vh;
+}
+
+.banner .slick-slider .slick-track, .banner .slick-slider .slick-list {
+  height: 100%;
+}
+
+.banner .slick-slider img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: .5;
+}
+
+.banner .slick-dotted.slick-slider {
+  margin-bottom: 0;
+}
+
+.banner .slick-dots {
+  transform: rotate(90deg);
+  right: -3%;
+  bottom: 50%;
+  width: 20%;
+  z-index: 2;
+}
+.sl .sl__img{
+  background: $bg-color;
+}
+.sl .slick-dots li {
+  margin: 0px;
+  margin-right: 10px;
+  opacity: 1;
+}
+
+.sl .slick-dots li.slick-active button:before,.sl .slick-dots li button:hover:before {
+  width: 40px;
+  height: 2px;
+  content: '';
+  background-color: $bg-color3;
+  transform: rotate(90deg);
+  top: 100%;
+  left: -50%;
+}
+
+.sl .slick-dots li button {
+
+}
+
+.sl .slick-dots li button:before {
+  z-index: 9999;
+  font-size: 9px;
+  color: $text-color;
+  opacity: 1;
+}
+
+/*.banner .sl__slider {
+  .sl__img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+  }
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}*/
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+}
+
